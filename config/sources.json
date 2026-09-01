@@ -1,0 +1,29 @@
+{
+  "target": 1500,
+  "country_sources": {
+    "🇯🇵 JAPAN": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/jp.txt",
+    "🇺🇸 UNITED STATES": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/us.txt",
+    "🇳🇱 NETHERLANDS": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/nl.txt",
+    "🇩🇪 GERMANY": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/de.txt",
+    "🇬🇧 UNITED KINGDOM": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/gb.txt",
+    "🇨🇦 CANADA": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/ca.txt",
+    "🇫🇷 FRANCE": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/fr.txt",
+    "🇸🇬 SINGAPORE": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/sg.txt",
+    "🇸🇪 SWEDEN": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/se.txt",
+    "🇨🇭 SWITZERLAND": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/ch.txt",
+    "🇵🇱 POLAND": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/pl.txt",
+    "🇷🇺 RUSSIA": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/ru.txt",
+    "🇭🇰 HONG KONG": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/hk.txt",
+    "🇮🇹 ITALY": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/it.txt",
+    "🇹🇷 TÜRKİYE": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/tr.txt",
+    "🇫🇮 FINLAND": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/fi.txt",
+    "🇪🇸 SPAIN": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/es.txt",
+    "🇦🇺 AUSTRALIA": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/au.txt",
+    "🇦🇹 AUSTRIA": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/at.txt",
+    "🇰🇷 SOUTH KOREA": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/kr.txt"
+  },
+  "fallback_sources": [
+    "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/best.txt",
+    "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/medium.txt"
+  ]
+      }
