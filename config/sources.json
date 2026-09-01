@@ -1,29 +1,102 @@
 {
   "target": 1500,
+  "minimum_output": 1000,
+  "candidate_multiplier": 8,
+  "minimum_candidates": 10000,
+  "probe_timeout": 3.5,
+  "country_quotas": {
+    "🇯🇵 JAPAN": 100,
+    "🇺🇸 UNITED STATES": 150,
+    "🇩🇪 GERMANY": 100,
+    "🇳🇱 NETHERLANDS": 90,
+    "🇬🇧 UNITED KINGDOM": 80,
+    "🇫🇷 FRANCE": 80,
+    "🇸🇬 SINGAPORE": 80,
+    "🇨🇦 CANADA": 70,
+    "🇰🇷 SOUTH KOREA": 70,
+    "🇭🇰 HONG KONG": 70,
+    "🇨🇭 SWITZERLAND": 60,
+    "🇸🇪 SWEDEN": 60,
+    "🇵🇱 POLAND": 60,
+    "🇮🇹 ITALY": 50,
+    "🇪🇸 SPAIN": 50,
+    "🇫🇮 FINLAND": 40,
+    "🇦🇹 AUSTRIA": 40,
+    "🇦🇺 AUSTRALIA": 40,
+    "🇹🇷 TÜRKİYE": 40,
+    "🇷🇺 RUSSIA": 40
+  },
   "country_sources": {
-    "🇯🇵 JAPAN": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/jp.txt",
-    "🇺🇸 UNITED STATES": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/us.txt",
-    "🇳🇱 NETHERLANDS": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/nl.txt",
-    "🇩🇪 GERMANY": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/de.txt",
-    "🇬🇧 UNITED KINGDOM": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/gb.txt",
-    "🇨🇦 CANADA": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/ca.txt",
-    "🇫🇷 FRANCE": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/fr.txt",
-    "🇸🇬 SINGAPORE": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/sg.txt",
-    "🇸🇪 SWEDEN": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/se.txt",
-    "🇨🇭 SWITZERLAND": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/ch.txt",
-    "🇵🇱 POLAND": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/pl.txt",
-    "🇷🇺 RUSSIA": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/ru.txt",
-    "🇭🇰 HONG KONG": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/hk.txt",
-    "🇮🇹 ITALY": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/it.txt",
-    "🇹🇷 TÜRKİYE": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/tr.txt",
-    "🇫🇮 FINLAND": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/fi.txt",
-    "🇪🇸 SPAIN": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/es.txt",
-    "🇦🇺 AUSTRALIA": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/au.txt",
-    "🇦🇹 AUSTRIA": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/at.txt",
-    "🇰🇷 SOUTH KOREA": "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/kr.txt"
+    "🇯🇵 JAPAN": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/jp.txt"
+    ],
+    "🇺🇸 UNITED STATES": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/us.txt"
+    ],
+    "🇳🇱 NETHERLANDS": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/nl.txt"
+    ],
+    "🇩🇪 GERMANY": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/de.txt"
+    ],
+    "🇬🇧 UNITED KINGDOM": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/gb.txt"
+    ],
+    "🇨🇦 CANADA": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/ca.txt"
+    ],
+    "🇫🇷 FRANCE": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/fr.txt"
+    ],
+    "🇸🇬 SINGAPORE": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/sg.txt"
+    ],
+    "🇸🇪 SWEDEN": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/se.txt"
+    ],
+    "🇨🇭 SWITZERLAND": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/ch.txt"
+    ],
+    "🇵🇱 POLAND": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/pl.txt"
+    ],
+    "🇷🇺 RUSSIA": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/ru.txt"
+    ],
+    "🇭🇰 HONG KONG": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/hk.txt"
+    ],
+    "🇮🇹 ITALY": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/it.txt"
+    ],
+    "🇹🇷 TÜRKİYE": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/tr.txt"
+    ],
+    "🇫🇮 FINLAND": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/fi.txt"
+    ],
+    "🇪🇸 SPAIN": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/es.txt"
+    ],
+    "🇦🇺 AUSTRALIA": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/au.txt"
+    ],
+    "🇦🇹 AUSTRIA": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/at.txt"
+    ],
+    "🇰🇷 SOUTH KOREA": [
+      "https://raw.githubusercontent.com/anonymouskeys/Free-configs-/main/output/countries/kr.txt"
+    ]
   },
   "fallback_sources": [
     "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/best.txt",
-    "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/medium.txt"
+    "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/medium.txt",
+    "https://raw.githubusercontent.com/morpheusadam/v2ray-config/main/subs/bundles/all.txt",
+    "https://raw.githubusercontent.com/Baarcuda/vpn-configs/master/top100.txt",
+    "https://raw.githubusercontent.com/zengfr/free-vpn-subscribe/main/vpn_sub_vless.txt",
+    "https://raw.githubusercontent.com/zengfr/free-vpn-subscribe/main/vpn_sub_vmess.txt",
+    "https://raw.githubusercontent.com/zengfr/free-vpn-subscribe/main/vpn_sub_trojan.txt",
+    "https://raw.githubusercontent.com/zengfr/free-vpn-subscribe/main/vpn_sub_shadowsocks.txt",
+    "https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/configs.txt"
   ]
-      }
+}
